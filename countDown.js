@@ -23,6 +23,9 @@ function randomGame() {
         counter++ //keeps track of each execution
         if(num > .75){
             clearInterval(numSelector);
+            if(counter === 1){
+                console.log(`It only took ${counter} try to  get > .75!`)
+            } else {
  //if number is greater than .75 stop timer and console.log number of tries to get above .75
             console.log(`It took ${counter} tries to get > .75`) 
         }
