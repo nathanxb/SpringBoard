@@ -38,6 +38,12 @@ let liOl = document.querySelectorAll('ol li');
 for(let i=0; i < liOl.length; i++) {
     liOl[i].style.backgroundColor = "green";
 }
+//or
+let liOls = document.querySelectorAll('ol li');
+for(let liOl of liOls) {
+    liOl.style.backgroundColor = "green";
+}
+
 // 12. Remove the div with a class of footer
 let footer = document.querySelector(".footer")
 footer.remove();
