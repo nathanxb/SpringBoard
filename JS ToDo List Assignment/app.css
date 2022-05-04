@@ -1,0 +1,17 @@
+h1 {
+    font-size: 4rem;
+    color: rgb(111, 71, 185);
+}
+
+#add-todo {
+    font-size: 1.5rem;
+}
+
+.done {
+    color: greenyellow;
+    text-decoration: line-through;
+}
+
+li:hover {
+    cursor: pointer;
+}
